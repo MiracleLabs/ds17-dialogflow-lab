@@ -2,19 +2,19 @@
 
 This repository contains the lab which teaches attendees how to build cognitive bots for Facebook Messenger using Dialogflow.
 
-##Lab Overview
+## Lab Overview
 
 This is a lab that helps you to understand the basics of building NLU bots.
 
 • Creating Facebook page
 
-• Create Intents, Entites and Dialog Responses(Agent) in Dialogflow
+• Create Intents, Entities and Dialog Responses(Agent) in Dialogflow
 
 • Configuring Facebook Messenger as a channel for your bot
 
-• Integrating Student details Agent with Facebook Messenger Channel
+• Integrating Tourist Bot Agent with Facebook Messenger Channel
 
-##Technology Overview
+## Technology Overview
 
 The following are the technologies that are used in this lab. Any prior knowledge of these technologies will accelerate your pace of learning.
 
@@ -24,7 +24,7 @@ The following are the technologies that are used in this lab. Any prior knowledg
 
 • Facebook for Developers - https://developers.facebook.com/
 
-##Repository Contents
+## Repository Contents
 
 The repository contains detailed documentation and steps for understanding and conquering this lab.
 
@@ -32,7 +32,7 @@ The repository contains detailed documentation and steps for understanding and c
 
 • Complete Agent as Zip file for reference
 
-##Lab Contributors
+## Lab Contributors
 
 The following people have contributed to the development and delivery of this lab. This Lab is created and owned by the Miracle Innovation Labs Team.
 

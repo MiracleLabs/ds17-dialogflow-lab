@@ -1,8 +1,8 @@
-Hands-On Building a Facebook Messenger Bot with Dialogflow
+# Building a Facebook Messenger Bot with Dialogflow
 
-This document will have all the links, code snippets and notes that you will need to complete the lab - Building a Facebook Messenger Bot with Dialogflow
+This document will have all the links, code snippets and notes that you will need to complete the lab - Building a Facebook Messenger Bot with Dialogflow.
 
-Important Links
+## Important Links
 
 • Google Account - https://accounts.google.com/SignUpWithoutGmail?hl=en/
 
@@ -14,8 +14,9 @@ Important Links
 
 • Access Facebook for Developers - https://developers.facebook.com/
 
-Code Snippets
- 
+## Code Snippets
+
+```
 Creating Node JS functions
 
     function <functionName>(req, res) {
@@ -25,25 +26,26 @@ Creating Node JS functions
                if (req.body.result.parameters.parameter-name == "parameter-value") {
 
                       <code logic here>    
-                  
+
 
                  }
 
            }
     }
-Response from Firebase functions to Dialogflow
+```
 
+## Response from Firebase functions to Dialogflow
+
+```
     return res.json({
 
           speech: <Sample response for speech>, // spoken response
 
           displayText: <Text Response> // displayed response
-          
+
           source: 'webhook-echo-sample'
 
         });
 
       }      
-      
-        
-  
+```
