@@ -16,36 +16,42 @@ This document will have all the links, code snippets and notes that you will nee
 
 ## Code Snippets
 
+#### Creating Node JS functions
+
 ```
-Creating Node JS functions
-
     function <functionName>(req, res) {
+	
+		const actionHandlers = {
 
-          if (req.body.result.action == "<action-name>"){
+          '<action-name>': () => {
 
                if (req.body.result.parameters.parameter-name == "parameter-value") {
 
-                      <code logic here>    
+                      <code logic here> 
 
+                }
 
-                 }
-
-           }
+            }
+		   
+		}   
     }
 ```
 
-## Response from Firebase functions to Dialogflow
+#### Response from Firebase functions to Dialogflow
 
 ```
-    return res.json({
+    let responseToUser = {
 
-          speech: <Sample response for speech>, // spoken response
+          speech: "<Sample response for speech>", // spoken response
 
-          displayText: <Text Response> // displayed response
+          text: "<Text Response>" // displayed response
 
-          source: 'webhook-echo-sample'
-
-        });
-
-      }      
+    };
+		
+	sendResponse(responseToUser);
+    
 ```
+
+
+
+
